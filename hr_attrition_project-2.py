@@ -3,19 +3,6 @@
 ## 📝 Project Overview
 This project analyzes employee data to predict attrition using machine learning and visualize insights through an interactive dashboard. Built using Python (pandas, scikit-learn), SHAP for model interpretability, and Power BI for visualization.
 
-## 📁 Project Structure
-```
-hr-attrition-prediction/
-├── data/
-│   └── employee_attrition.csv
-│   └── attrition_predictions.csv
-├── dashboards/
-│   └── HR_attrition_dashboard.pbix
-├── visuals/
-│   └── shap_summary.png
-├── hr_attrition_project.py
-└── README.md
-```
 
 ## 🔧 Tools & Technologies
 - Python: Data wrangling, machine learning (Logistic Regression, Random Forest), SHAP for feature importance
@@ -34,7 +21,7 @@ hr-attrition-prediction/
 
 ## 🚀 How to Run
 1. Clone this repository.
-2. Download the dataset and place it in `data/employee_attrition.csv`.
+2. Download the dataset and place it in `Employee Attrition.csv`.
 3. Install dependencies:
    ```bash
    pip install pandas scikit-learn shap matplotlib seaborn
@@ -43,7 +30,7 @@ hr-attrition-prediction/
    ```bash
    python hr_attrition_project.py
    ```
-5. Open Power BI / Tableau and load `attrition_predictions.csv` to create the dashboard.
+5. Open Power BI / Tableau and load `attrition predictions.csv` to create the dashboard.
 
 ## 📊 Dashboard Ideas
 - Attrition % by Department, Gender, Job Role
@@ -75,7 +62,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import shap
 
 # Step 2: Load Dataset
-df = pd.read_csv('data/employee_attrition.csv')
+df = pd.read_csv('Employee Attrition.csv')
 
 # Step 3: Data Cleaning
 # Convert target variable to binary
