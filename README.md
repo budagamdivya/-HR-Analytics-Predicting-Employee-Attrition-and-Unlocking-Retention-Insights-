@@ -1,0 +1,2 @@
+# -HR-Analytics-Predicting-Employee-Attrition-and-Unlocking-Retention-Insights-
+In this project, I explored employee attrition patterns using predictive analytics and data visualization to help HR teams make informed decisions. By analyzing workforce data, building a churn prediction model, and designing actionable dashboards, the project aims to reduce voluntary turnover and improve employee engagement strategies.
