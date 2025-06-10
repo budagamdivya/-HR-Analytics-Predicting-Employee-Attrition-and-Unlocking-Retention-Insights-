@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import shap
 
 # Step 2: Load Dataset
-df = pd.read_csv('data/employee_attrition.csv')
+df = pd.read_csv('Employee Attrition.csv')
 
 # Step 3: Data Cleaning
 # Convert target variable to binary
