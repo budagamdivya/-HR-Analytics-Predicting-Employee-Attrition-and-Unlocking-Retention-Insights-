@@ -1,2 +1,20 @@
-# -HR-Analytics-Predicting-Employee-Attrition-and-Unlocking-Retention-Insights-
-In this project, I explored employee attrition patterns using predictive analytics and data visualization to help HR teams make informed decisions. By analyzing workforce data, building a churn prediction model, and designing actionable dashboards, the project aims to reduce voluntary turnover and improve employee engagement strategies.
+# HR Attrition Prediction Project
+
+## Project Overview
+This project uses a machine learning model to predict employee attrition and outputs a CSV file with predictions.
+
+## How to Run
+
+1. Make sure Python and required libraries are installed:
+```
+pip install pandas scikit-learn
+```
+
+2. Run the script:
+```
+python run_attrition_model.py
+```
+
+3. Output file will be saved in `data/attrition_predictions.csv`.
+
+This is a simplified test version with sample data for demonstration.
