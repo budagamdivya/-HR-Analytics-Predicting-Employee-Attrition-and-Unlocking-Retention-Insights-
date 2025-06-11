@@ -39,6 +39,7 @@ Pandas, scikit-learn
 Matplotlib, Seaborn
 Jupyter / VS Code
 CSV Output (for use in Tableau / Power BI dashboards)
+
 🧾 License
 
 This project is for educational and demonstration purposes only. Dataset source: IBM HR Analytics (via Kaggle).
