@@ -30,6 +30,15 @@ python run_attrition_model.py
 ```
 python plot_chart.py
 ```
-3. Output file will be saved in `data/attrition_predictions.csv`.
+✅ This will show a bar chart of employee attrition distribution
 
-This is a simplified test version with sample data for demonstration.
+🛠️ Tools & Technologies
+
+Python
+Pandas, scikit-learn
+Matplotlib, Seaborn
+Jupyter / VS Code
+CSV Output (for use in Tableau / Power BI dashboards)
+🧾 License
+
+This project is for educational and demonstration purposes only. Dataset source: IBM HR Analytics (via Kaggle).
